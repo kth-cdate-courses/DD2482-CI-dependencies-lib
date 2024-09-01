@@ -1,0 +1,21 @@
+{
+  "name": "@devops/components",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.13",
+    "postcss": "8.4.38",
+    "tailwindcss": "3.4.3"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.2"
+  }
+}
